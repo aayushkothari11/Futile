@@ -1,0 +1,38 @@
+body{
+  background-color:#b2ebf2 ;
+  font-family: "Sansita" , serif;
+
+}
+#info{
+	margin:auto;
+}
+.textblack{
+	color:black;
+}
+.card{
+	height: 400px;
+	margin: auto;
+}
+
+.facebook{
+	height:25px;
+	width:25px;
+	margin-top:10px;
+}
+.text{
+	margin-left:10px;
+	display: inline-block;
+	text-align: center;
+}
+.phover{
+	font-size:20px;
+}
+.phover:hover{
+	font-size: 30px;
+}
+.imghover{
+	opacity: 1;
+}
+.imghover:hover{
+	opacity:0.5;
+}
