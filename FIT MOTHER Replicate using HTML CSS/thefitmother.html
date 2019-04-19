@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Fit Mother</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="mother.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.icon').click(function(){
+			$('.icon').toggleClass('active');
+			$(".img1").toggleClass("hide");
+    		$('.swap').toggleClass('showPanel');
+		})
+	})
+</script>
+</head>
+<body>
+<div class="wrapper">
+  <div class="a"><a href="#">THE FIT MOTHER.</a></div>
+  <div class="b"><a href="#">Free Resources</a></div>
+  <div class="c"><a href="#">Sign up</a></div>
+  <div class="d"><a href="#">Log in</a></div>
+  <div class="e">
+  <div class="icon">
+		<div class="ham">
+		</div>
+</div>
+</div>
+</div>
+<div class="img1">	<video autoplay loop class="abc">
+  <source src="https://thefitmother.com/img/video/video.mp4" type="video/mp4">
+</video width="100%" height="75%">
+<p id="text">THE #1 HEALTH & FITNESS DESTINATION FOR BUSY MOTHERS.</p>
+<a href="#" id="btn1">Try it FREE for 7 days</a>
+</div>
+<div class="swap">
+	<div class="w">Home</div>
+	<div class="x">Movement</div>
+	<div class="y">Knowledge</div>
+	<div class="z">Connection</div>
+</div>
+</body>
+</html>
